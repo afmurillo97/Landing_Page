@@ -1,0 +1,48 @@
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.first-segment {
+    background-color: #1f2937;
+    margin-top: -25px;
+    border-color: #1f2937;
+
+}
+.header {
+
+}
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-top: 30px;
+}
+.header-links {
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    margin-top: -47px;
+    
+}
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.image {
+    display: block;
+    margin-left: 830px;
+    margin-top: -100px;
+}
+.hero-main-title {
+    justify-content: left;
+}
