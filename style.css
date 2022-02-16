@@ -10,6 +10,10 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
+li {
+    list-style-type: none;
+    align-content: center;
+}
 button.signUp {
     background: #3886f2;
     border: 1px solid #3886f2;
@@ -28,8 +32,11 @@ button.signUp:hover {
 }
 .first-segment {
     background-color: #1f2937;
-    margin: -25px -100px 0px -100px;
+    margin: -25px -110px 0px -110px;
     font-family: sans-serif;
+}
+.second-segment {
+    margin-top: 100px;
 }
 .header-logo {
     font-size: 24px;
@@ -39,7 +46,6 @@ button.signUp:hover {
 }
 .header-links {
     font-size: 18px;
-    list-style-type: none;
     display: flex;
     justify-content: right;
     gap: 20px;
@@ -49,7 +55,7 @@ button.signUp:hover {
 }
 .image {
     display: block;
-    margin-left: 830px;
+    margin-left: 850px;
     margin-top: -220px;
     padding-bottom: 100px;
 
@@ -58,16 +64,51 @@ button.signUp:hover {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
-    width: 400px;
+    width: 430px;
 }
 .hero-main-text {
     font-size: 18px;
     color: #e5e7eb;
     margin-top: -60px;
-    width: 600px;
+    width: 550px;
 }
 .hero-main-title, .hero-main-text {
     justify-content: left;
     padding-top: 30px;
     padding-left: 200px;
+}
+.title {
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bolder;
+}
+.tags {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 5px solid #3886f2;
+
+}
+.tags-text {
+    display: flex;
+    width: 180px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    color: #1f2937;
+}
+.total-tags{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
 }
