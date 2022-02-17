@@ -25,6 +25,7 @@ button.signUp {
     align-items: center;
     margin-left: 200px;
     padding: 5px 6px 5px 6px;
+    font-weight: bolder;
 }
 button.signUp:hover {
     background-color: #e5e7eb;
@@ -127,4 +128,37 @@ button.signUp:hover {
     justify-content: right;
     margin-top: 5px;
     font-family: sans-serif;
+}
+.call {
+    display: flex;
+    background: #3886f2;
+    display: flex;
+    color: #f9faf8;
+    flex-direction: column;
+    align-items: left;
+    margin: 100px 100px 100px 100px;
+    border-radius: 10px;
+    padding: 0px 100px 0px 100px;
+}
+.call-sign {
+    margin-top: 0;
+}
+button.signUp2 {
+    display: flex;
+    background: #3886f2;
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+    color: #f9faf8;
+    width: 100px;
+    padding: 5px 6px 5px 6px;
+    transition-duration: 0.4s;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: -70px auto auto 650px;
+}
+button.signUp2:hover {
+    background-color: #e5e7eb;
+    color: #3886f2;
 }
