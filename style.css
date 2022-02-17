@@ -51,14 +51,12 @@ button.signUp:hover {
     gap: 20px;
     margin-top: -47px;
     padding-right: 200px;
-    
 }
 .image {
     display: block;
     margin-left: 850px;
     margin-top: -220px;
     padding-bottom: 100px;
-
 }
 .hero-main-title {
     font-size: 48px;
@@ -95,7 +93,6 @@ button.signUp:hover {
     align-items: center;
     border-radius: 20px;
     border: 5px solid #3886f2;
-
 }
 .tags-text {
     display: flex;
@@ -111,4 +108,23 @@ button.signUp:hover {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
+}
+.quote {
+    display: flex;
+    background: #e5e7eb;
+    margin: -25px -110px 0px -110px;
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: lighter;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px 200px 150px 200px;
+}
+.quote-name{
+    font-size: 25px;
+    display: flex;
+    justify-content: right;
+    margin-top: 5px;
+    font-family: sans-serif;
 }
